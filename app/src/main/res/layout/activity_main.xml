@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nick.application002.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="368dp"
+        android:layout_height="80dp"
+        android:textAlignment="viewEnd"
+        android:textSize="50dp"
+        android:text=""
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:onClick="one"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:onClick="two"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:onClick="three"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:onClick="four"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:onClick="five"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:onClick="six"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:onClick="seven"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:onClick="eight"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:onClick="nine"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:onClick="zero"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:onClick="equalsto"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:onClick="dot"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="÷"
+        android:onClick="divide"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:onClick="multiply"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:onClick="subtract"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:onClick="add"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="141dp" />
+</android.support.constraint.ConstraintLayout>
